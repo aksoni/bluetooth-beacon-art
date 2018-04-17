@@ -6,7 +6,7 @@ Based on SwitchDocLabs iBeacon-Scanner https://github.com/switchdoclabs/iBeacon-
 
 blescanner is a python program designed to read iBeacon advertizments using a Bluetooth Dongle on a Raspberry Pi
 
-To run, "sudo python testblescanner.py"
+To run, "sudo python testblescan.py"
 
 You may need to adjust the file paths of the sounds to be able to run on your system.
 
