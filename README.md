@@ -8,4 +8,5 @@ blescanner is a python program designed to read iBeacon advertizments using a Bl
 
 To run, "sudo python testblescanner.py"
 
+You may need to adjust the file paths of the sounds to be able to run on your system.
 
