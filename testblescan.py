@@ -136,7 +136,7 @@ while True:
                         
                         #only load and play song from beginning if outside sound is not already playing
                         if playing_outside == False:
-                            pygame.mixer.music.load("/home/pi/iBeacon-Scanner-/outer.wav")
+                            pygame.mixer.music.load("/home/pi/bluetooth-beacon-art/outer.wav")
                             pygame.mixer.music.play()
                       
                         playing_outside = True
@@ -151,7 +151,7 @@ while True:
                         if rssi_left_ave > rssi_right_ave:
                             print("left playing")
                             if playing_left == False:
-                                pygame.mixer.music.load("/home/pi/iBeacon-Scanner-/left.wav")
+                                pygame.mixer.music.load("/home/pi/bluetooth-beacon-art/left.wav")
                                 pygame.mixer.music.play()
                             playing_left = True
                             playing_outside = False
@@ -162,7 +162,7 @@ while True:
                         else:
                             print("right playing")
                             if playing_right == False:
-                                pygame.mixer.music.load("/home/pi/iBeacon-Scanner-/right.wav")
+                                pygame.mixer.music.load("/home/pi/bluetooth-beacon-art/right.wav")
                                 pygame.mixer.music.play()
                             playing_left = False
                             playing_outside = False
@@ -174,7 +174,7 @@ while True:
                     else:
                             print("center playing")
                             if playing_center == False:
-                                pygame.mixer.music.load("/home/pi/iBeacon-Scanner-/middle.wav")
+                                pygame.mixer.music.load("/home/pi/bluetooth-beacon-art/middle.wav")
                                 pygame.mixer.music.play()
 
                             playing_left = False
